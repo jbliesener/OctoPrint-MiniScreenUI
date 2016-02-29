@@ -13,7 +13,8 @@ import octoprint.plugin
 
 class MiniscreenuiPlugin(octoprint.plugin.SettingsPlugin,
                          octoprint.plugin.AssetPlugin,
-                         octoprint.plugin.TemplatePlugin):
+                         octoprint.plugin.TemplatePlugin,
+                         octoprint.plugin.BluePrintPlugin):
 
 	##~~ SettingsPlugin mixin
 
